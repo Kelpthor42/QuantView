@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuantView.Core\QuantView.Core.csproj" />
+    <ProjectReference Include="..\QuantView.Utils\QuantView.Utils.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="LiveCharts2" Version="2.0.0-beta.7" />
+  </ItemGroup>
+</Project>
